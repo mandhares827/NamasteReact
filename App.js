@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 const Title = () => (
-    <div id="hjd"><h1 id="title">This is my title JSX!</h1></div>
+    <div id="title"><h1 id="h1tag">This is my title JSX!</h1></div>
 );
 const HeadingComponent = () => (
      <div id="container">
