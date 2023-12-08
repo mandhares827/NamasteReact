@@ -45,5 +45,9 @@
 * JSX => React.createElement => Object => Html element
 * There are two types of components. 1. Class based component and 2. Functional component
 * If a function returns a react element / JSX is called as functional component
+* JSX takes care of injection attacks by sanitizing a data
+* Config driven UI
+* Using index as key is bad practice.
+
 
 
