@@ -34,3 +34,18 @@ body {   margin: 0;}
     width: 200px;
     height: 180px;
 }
+
+.filter-btn{
+    margin:10px;
+}
+
+.shimmer-container{
+    display: flex;
+}
+
+.shimmer-card{
+    width: 250px;
+    height: 300px;
+    background-color: #dedbdb;
+    margin: 10px;
+}

@@ -1,0 +1,3 @@
+export const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+
+export const LOGO_URL = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn1.vectorstock.com%2Fi%2F1000x1000%2F07%2F75%2Ffood-delivery-logo-design-vector-24450775.jpg&tbnid=KHv33xZUkcJZMM&vet=12ahUKEwiliuTX4IGDAxV_cGwGHd2CD-UQMygBegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Ffood-delivery-logo-design-vector-24450775&docid=seqeRFNByvC3HM&w=1000&h=1080&q=single%20sample%20logo%20food%20delivery&ved=2ahUKEwiliuTX4IGDAxV_cGwGHd2CD-UQMygBegQIARBU";

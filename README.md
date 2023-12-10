@@ -48,6 +48,24 @@
 * JSX takes care of injection attacks by sanitizing a data
 * Config driven UI
 * Using index as key is bad practice.
+* Never keep hard coded data and common url links in components
 
+* there are two types of import and export 
+    - default export / import
+    - named export
+
+#React Hooks
+* Hook is nothing but a normal js function, it has its own specific purpose to use.
+* whenever a state variable updates, react rerenders its component
+* React uses reconcilation algorithm (React Fiber)
+* React create virtual dom (Representation of actual dom) its a normal javascript object 
+* efficient dom manipulation - it has virtual dom - object representation
+
+#Monolythic and Microservices architecture
+* In monolythic architecture we have all the things like email services, UI, Backend and DB in single application. Its a bulky thing
+* In microservices architecture - For each and every small thing we have different project. This is known as seperation of concerns and it follows single responsibility concerns.
+* Shimmer UI - We load fake page until our data loads
+@Read optional chaining in js
+@watch CORS video of akshay
 
 
