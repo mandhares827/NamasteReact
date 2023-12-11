@@ -1,27 +1,23 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { useState } from "react";
 import { LOGO_URL } from "../utils/contsants";
 
-const Logo = () => (
-    <div className="logo-container">
+
+const Header = () => {
+    const [btnNameReact, setBtnNameReact] = useState("Login");
+  return  <div className="heading">
+      <div className="logo-container">
       <h1 id="logo"><img src={LOGO_URL} alt="logo" /></h1>
     </div>
-  );
-  const Navigation = () => (
       <div className="nav-container">
         <ul>
           <li>Home</li>
           <li>About us</li>
           <li>Restaurants</li>
           <li>Cart</li>
+          <li><button onClick={() => {setBtnNameReact("Logout");}}>{btnNameReact}</button></li>
         </ul>
       </div>
-    );
-  const Header = () => (
-    <div className="heading">
-      <Logo />
-      <Navigation />
     </div>
-  );
+  };
 
   export default Header;

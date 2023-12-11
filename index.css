@@ -49,3 +49,9 @@ body {   margin: 0;}
     background-color: #dedbdb;
     margin: 10px;
 }
+.search{
+    display: flex;
+}
+.search-container{
+    display: flex;
+}

@@ -62,7 +62,7 @@
 * efficient dom manipulation - it has virtual dom - object representation
 
 #Monolythic and Microservices architecture
-* In monolythic architecture we have all the things like email services, UI, Backend and DB in single application. Its a bulky thing
+* In monolythic architecture - we have all the things like email services, UI, Backend and DB in single application. Its a bulky thing
 * In microservices architecture - For each and every small thing we have different project. This is known as seperation of concerns and it follows single responsibility concerns.
 * Shimmer UI - We load fake page until our data loads
 @Read optional chaining in js
