@@ -68,4 +68,35 @@
 @Read optional chaining in js
 @watch CORS video of akshay
 
+useEffect
+* If there is no dependency array => useEffect is called on every render
+* if dependency array is empty = [] => useEffect will be called on inital render only(just once)
+* If dependency array is not empty => useEffect will be called when dependency array changes
+
+* Always call hooks inside component
+* Try to call useSate at the top
+* Never use useState hook inside a condition
+There are two types of routing in web apps
+1. Client side routing
+2. server side routing
+
+#Functional component
+Its a javascript function which returns a piece of JSX
+
+#Class based component
+Its a class which returns a piece of JSX, it uses render() method  and class extends react.component
+
+Never update state directly (count = count + 1)
+
+Lifecycle of component
+Parent Constructor called
+Parent Render
+FirstChild Constructor
+FirstChild Render
+SecondChild Constructor
+SecondChild Render
+FirstChild ComponentDidMount
+SecondChild ComponentDidMount
+Parent ComponentDidMount
+
 
