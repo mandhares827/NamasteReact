@@ -13,6 +13,9 @@ body {   margin: 0;}
 #logo {
     margin: 0;
 }
+.logo {
+    width: 140px;
+}
 .res-container{
   display: flex;
   margin: 15px;

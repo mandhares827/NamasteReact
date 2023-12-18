@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import {useParams} from "react-router-dom"
 import Shimmer from "./Shimmer";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
@@ -8,23 +7,30 @@ const ReastaurantMenu = () => {
     const { resId } = useParams();
 
     const resInfo  = useRestaurantMenu(resId);
-
+    console.log("itemCards",resInfo?.menu);
     if(resInfo === null) return <Shimmer/>;
-    console.log("rrrrrrrrresInfo", resInfo);
-    const { name, cuisines, costForTwoMessage } = resInfo?.cards[0]?.card?.card?.info;
     
-    const {itemCards} = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
+    const { name, cuisines } = resInfo;
+    
+    const itemCards = resInfo?.menu;
 
-    console.log(itemCards);
-    return 
-        <div className="menu">
-            <h1>Name</h1>
-            <h2>Manu</h2>
-            <ul>
-                <li>Biryani</li>
-            </ul>
-        </div>
-    
+    console.log("itemCards",itemCards);
+    return (
+      <div>
+        <h1>{resInfo.name}</h1>
+                <h2>Manu</h2>
+        {itemCards.map((item)=>(
+           <div className="menu">
+                
+                <ul>
+                    <li>{item.name}</li>
+                    <li>{item.price}</li>
+                </ul>
+            </div>
+        ))}
+        
+    </div>
+    );
 }
 
 export default ReastaurantMenu;
