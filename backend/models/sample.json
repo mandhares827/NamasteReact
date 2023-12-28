@@ -1,0 +1,22 @@
+{
+  "name": "Dominos",
+  "cuisine": ["American", "Snacks"],
+  "isPromoted": true,
+  "avgRating": 4.6,
+  "deliveryTime": "35 mins",
+  "price": 200,
+  "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bwcotgsjhmef0geeit4i",
+  "type": [
+    {
+      "Recommended": [
+        {
+          "name": "Item 1",
+          "isVeg": true,
+          "description": "This is a test description",
+          "price": 400,
+          "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bwcotgsjhmef0geeit4i"
+        }
+      ]
+    }
+  ]
+}
