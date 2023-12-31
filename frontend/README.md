@@ -114,3 +114,37 @@ dynamic import
 
 Higher order component
 Higher order component takes a component and returns a component
+
+#Redux toolkit
+
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Connect our store to our app
+- Create a cart slice
+- Dispatch an action
+- Read the data using selector
+
+- Use onClick={handleSomething} when you want to pass a reference to the function without invoking it immediately.
+- Use onClick={() => handleSomething(items)} when you need to pass arguments to the function.
+- Avoid using onClick={handleSomething(items)} directly, as it will invoke the function immediately; instead, use an arrow function to delay the invocation.
+- While subscribing to the store, you will need to subscribe to the right place of the store, otherwise it will be a big performance loss.
+- when we are writing store that is single reducer for the whole app and it can contain multiple small reducers
+- when we are writing slice there are multiple small reducer functions inside it so thats why it is know as reducers
+- reducer is nothing but a combination of small reducers.
+- Vanialla(older) Redux => DON'T MUTATE THE STATE, returning was mandetory
+
+# Type of testing developer can do
+
+- Unit testing (Where single component got tested)
+- Integration testing (Where multiple components involved and events are happening)
+- End to end testing E2E (Where user enters to app and till users leaves the site)
+
+- (Install React Testing library) npm i -D @testing-library/react
+- (Install Jest) npm i -D jest
+- (Installed Babel dependencies)
+- (Install Babel )npm install --save-dev babel-jest @babel/core @babel/preset-env
+- configure .parcelrc file to disable default babel transpilation
+- write jest configuration (npx jest --init)
+- npm install --save-dev jest-environment-jsdom (Install jest envirnment jsdom)
+
+- npm run test
